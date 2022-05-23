@@ -9,9 +9,9 @@ image:
   pullPolicy: Always
 
 imagePullSecrets:
-  - name: "system-a-team-a-pull-secret"
+  - name: "system-b-team-b-pull-secret"
 nameOverride: "cicd_app_poc_1"
-fullnameOverride: "system-a-team-a-cicd-app-poc-1"
+fullnameOverride: "system-b-team-b-cicd-app-poc-1"
 
 serviceAccount:
   # Specifies whether a service account should be created
